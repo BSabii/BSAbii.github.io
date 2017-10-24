@@ -1,0 +1,240 @@
+body {
+    margin: 50px;
+    padding: 0;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: "Raleway", sans-serif;
+    color: #000000;
+    background-color: white;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
+    font-size: 50px;
+    line-height: 25px;
+    font-family: "Raleway", sans-serif;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+.page-header {
+    min-height: 750px;
+    min-width: 1500px;
+    background-color: #efefef;
+    background-image: url(img/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%201.png);
+    background-repeat: no-repeat;
+}
+
+.main-nav {
+    float: right;
+    width: 80px;
+    padding: 0;
+    margin: 0;
+    margin-top: 35px;
+    margin-right: 60px;
+    list-style: none;
+}
+
+.main-nav li {
+    text-transform: uppercase;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.first-page h2 {
+    padding-top: 250px;
+    padding-left: 180px;
+}
+
+.first-page p {
+    width: 440px;
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 180px;   
+}
+
+.about-me {
+    margin-top: 50px;
+    min-height: 750px;
+    min-width: 1500px;
+    background-color: #efefef;
+    background-image: url(img/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%202.png);
+    background-repeat: no-repeat;   
+}
+
+.about-me .line  {
+    position: relative;
+    top: -30px;
+    left: 690px;
+}
+
+.about-me h2 { 
+    padding: 0;
+    padding-top: 190px;
+    margin-left: 805px;
+}
+
+.about-me p{
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 690px;
+    width: 625px;
+}
+
+.apollo-second {
+    margin: 0;
+    padding: 0;
+    padding-left: 120px;   
+}
+
+.my-social-links {
+    margin: 0;
+    margin-top: 70px;
+    margin-left: 690px;
+    padding: 0;   
+}
+
+.social-btn  {
+    padding-right: 15px;
+}
+
+.my-gallery-first {
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 50px;
+    background-color: white;
+    height: 750px;
+    width: 1483px;
+}
+
+.my-gallery-first .previous {
+    position: relative;
+    top: -418px;
+    left: 42px;
+}
+
+.my-gallery-first .next {
+    position: relative;
+    top:-418px;
+    right: -1290px;
+}
+
+.description {
+    margin-top: 50px;
+    min-width: 1500px;
+    min-height: 750px;
+    background-color: #efefef;
+    background-image: url(img/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%204.png);
+    background-repeat: no-repeat;
+}
+
+.apollo-third {
+    padding: 0;
+    padding-top: 220px;
+    padding-left: 180px;  
+}
+
+.description p {
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    padding-left: 180px;
+    width: 440px;
+}
+
+.my-gallery-second {
+    min-height: 750px;
+    min-width: 1500px;
+    margin-top: 50px;
+    background-color: #efefef;
+    background-image: url(img/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%206.png);
+    background-repeat: no-repeat;
+}
+
+.page-footer {
+    margin-top: 50px;
+    min-height: 750px;
+    min-width: 1500px;
+    background-color: #efefef;
+    background-image: url(img/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%205.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.apollo-fourth {
+    padding-top: 104px;
+    padding-left: 640px;
+}
+
+.page-footer p {
+    margin: 0;
+    padding-top: 50px; 
+    padding-left: 266px;
+    width: 965px;
+    text-align: center;
+}
+
+.feedback-form input[type="email"],
+.feedback-form input[type="text"],
+.feedback-form textarea {
+    border: 1px solid black;
+    padding-left: 19px;
+}
+
+.feedback-form input[type="email"] {
+    float: left;
+    margin-left: 457px;
+    margin-top: 98px;
+    margin-right: 10px;
+    min-width: 256px;
+    height: 41px;
+    font-size: 16px;
+    background-color: #efefef;
+    
+}
+
+.feedback-form input[type="text"] {
+    float: left;
+    margin-top: 98px;
+    margin-right: 100px;
+    margin-left: 20px;
+    width: 255px;
+    height: 41px;
+    font-size: 16px;
+    background-color: #efefef;
+    
+}
+
+.feedback-form textarea {
+    float: left;
+    padding-left: 23px;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 457px;
+    font-size: 16px;
+    background-color: #efefef;    
+}
+
+.feedback-form .btn {
+    margin-top: 20px;
+    margin-left: 458px;
+    width: 585px;
+    height: 45px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+}
+
+
+
